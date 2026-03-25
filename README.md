@@ -1,26 +1,29 @@
-# Future Space - Desarrollo Java Profesional
+# Java Ecosystem: Clean Code & Spring Suite
 
-Este repositorio contiene mi progresión técnica y los proyectos desarrollados durante mi formación, organizados por módulos tecnológicos y buenas prácticas.
+Este repositorio centraliza mi progresión técnica en el ecosistema Java, desde la aplicación de estándares de calidad de software hasta el desarrollo de aplicaciones empresariales.
 
-## Contenido del Repositorio
+---
 
-### [Clean Code](clean_code/)
-Ejercicios enfocados en la calidad de software y principios **SOLID**.
-* **Destacado:** [Mastermind Engine](clean_code/src/exercises/ejercicio06/) - Un motor de juego con arquitectura desacoplada y lógica inmutable.
+## Módulos del Repositorio
+
+### [Clean Code & Software Design](clean_code/)
+Enfoque en la escritura de código legible, mantenible y robusto siguiendo los principios SOLID.
+* **Destacado:** [Mastermind Engine](clean_code/src/exercises/ejercicio06/) - Implementación de un motor de juego con arquitectura desacoplada y lógica inmutable.
 
 ### [Spring Framework](spring_framework/)
-Desarrollo de aplicaciones empresariales utilizando el núcleo de Spring.
-* Inyección de dependencias, contenedores de Beans y configuración de contextos.
+Desarrollo de aplicaciones utilizando el core de Spring.
+* Inyección de dependencias (DI) e Inversión de Control (IoC).
+* Gestión de contextos y configuración de Beans.
 
-### 📊 Spring Data (Próximamente)
-Persistencia de datos, repositorios JPA y gestión de bases de datos.
-
----
-
-## 🛠️ Tecnologías y Estándares
-* **Lenguaje:** Java SE / EE
-* **Frameworks:** Spring Boot, Spring Framework
-* **Metodologías:** Clean Code, Git Flow, Refactoring.
+### [Spring Data](spring_data/) *(En desarrollo)*
+Persistencia de datos, repositorios JPA y gestión de bases de datos relacionales.
 
 ---
-**Desarrollado por:** [Susana Bitar]
+
+## Stack Tecnológico
+* **Lenguaje:** Java SE 17+
+* **Herramientas:** Maven / Gradle, Git
+* **Metodologías:** Clean Code, Refactoring, OOP avanzada.
+
+---
+**Desarrollado por:** Susana Bitar
