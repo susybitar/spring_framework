@@ -21,7 +21,7 @@ A lo largo del proyecto se han implementado de forma rigurosa los siguientes est
 
 ## Estructura de Proyectos
 
-### [Ejercicio 06 - Mastermind Engine](exercises/ejercicio06/)
+### [Ejercicio 06 - Mastermind Engine](src/exercises/ejercicio06/)
 Este es el proyecto más avanzado del repositorio. Se trata de un motor de juego completo que destaca por:
 * **Separación de Capas:** Arquitectura desacoplada donde la lógica de negocio es totalmente independiente de la interfaz de consola (MVC).
 * **Algoritmo de Evaluación:** Implementación de un sistema de "marcado" mediante arrays booleanos para garantizar la precisión matemática en casos de colores duplicados.
