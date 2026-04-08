@@ -37,4 +37,44 @@ public interface BookRepository extends JpaRepository<Book, Long> {
      * @return Lista de libros cuya fecha de publicación es posterior a la indicada.
      */
     List<Book> findByPublicationDateAfter(LocalDate date);
+
+    /**
+     * Ejercicio JPA 6.1: Busca libros publicados en un año específico.
+     * Al usar LocalDate, definimos un rango que abarca desde el 1 de enero
+     * hasta el 31 de diciembre del año deseado.
+     *
+     * @param start Fecha de inicio del rango (ej: 2001-01-01).
+     * @param end   Fecha de fin del rango (ej: 2001-12-31).
+     * @return Lista de libros publicados en ese intervalo de tiempo.
+     */
+
+    List<Book> findByPublicationDateBetween(LocalDate start, LocalDate end);
+
+    /**
+     * Ejercicio JPA 6.2: Busca un libro por su código ISBN.
+     * Se devuelve un único objeto Book ya que el ISBN es un identificador único.
+     *
+     * @param isbn Código ISBN del libro a buscar.
+     * @return El libro encontrado o null si no existe.
+     */
+    Book findByIsbn(String isbn);
+
+    /**
+     * Ejercicio JPA 6.3: Busca libros por nombre de editorial ignorando mayúsculas/minúsculas.
+     *
+     * @param publisherName Nombre de la editorial (ej: "RBA" o "rba").
+     * @return Lista de libros asociados.
+     */
+    List<Book> findByPublisher_PublisherNameIgnoreCase(String publisherName);
+
+    /**
+     * Ejercicio JPA 6.4: Busca libros de una editorial (ignore case) en un año concreto.
+     *
+     * @param publisherName Nombre de la editorial.
+     * @param start         Inicio del año.
+     * @param end           Fin del año.
+     * @return Lista de libros que cumplen ambas condiciones.
+     */
+    List<Book> findByPublisher_PublisherNameIgnoreCaseAndPublicationDateBetween(String publisherName, LocalDate start, LocalDate end);
+
 }

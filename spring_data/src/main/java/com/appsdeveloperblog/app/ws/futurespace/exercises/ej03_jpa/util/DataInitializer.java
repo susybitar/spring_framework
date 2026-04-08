@@ -79,7 +79,7 @@ public class DataInitializer implements CommandLineRunner {
 
         // Libros
         bookRepo.saveAll(List.of(
-                new Book("978-01", "Historia de Alemania", LocalDate.of(2001, 1, 1), a1, e1, c1),
+                new Book("87919878", "Historia de Alemania", LocalDate.of(2001, 1, 1), a1, e1, c1),
                 new Book("978-02", "Historia de España", LocalDate.of(2002, 1, 1), a1, e1, c1),
                 new Book("978-03", "Historia de Francia", LocalDate.of(2002, 1, 1), a1, e1, c1),
                 new Book("978-04", "La sociedad medieval", LocalDate.of(2001, 1, 1), a2, e1, c1),
