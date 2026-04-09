@@ -1,4 +1,4 @@
-package com.appsdeveloperblog.app.ws.futurespace.exercises.exercises_opcionales.ej01_jpa_opcional.model.response;
+package com.appsdeveloperblog.app.ws.futurespace.exercises.exercises_opcionales.model.response;
 
 import java.util.Date;
 

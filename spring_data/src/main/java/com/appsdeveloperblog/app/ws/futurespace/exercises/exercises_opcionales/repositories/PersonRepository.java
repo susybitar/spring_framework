@@ -1,6 +1,6 @@
-package com.appsdeveloperblog.app.ws.futurespace.exercises.exercises_opcionales.ej01_jpa_opcional.repositories;
+package com.appsdeveloperblog.app.ws.futurespace.exercises.exercises_opcionales.repositories;
 
-import com.appsdeveloperblog.app.ws.futurespace.exercises.exercises_opcionales.ej01_jpa_opcional.entities.Person;
+import com.appsdeveloperblog.app.ws.futurespace.exercises.exercises_opcionales.entities.Person;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

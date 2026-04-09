@@ -1,4 +1,4 @@
-package com.appsdeveloperblog.app.ws.futurespace.exercises.exercises_opcionales.ej01_jpa_opcional.exceptions;
+package com.appsdeveloperblog.app.ws.futurespace.exercises.exercises_opcionales.exceptions;
 
 /**
  * Excepcion personalizada para la gestion de errores de negocio relacionados con Personas.

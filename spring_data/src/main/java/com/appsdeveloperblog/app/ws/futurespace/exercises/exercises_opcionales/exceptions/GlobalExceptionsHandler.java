@@ -1,6 +1,6 @@
-package com.appsdeveloperblog.app.ws.futurespace.exercises.exercises_opcionales.ej01_jpa_opcional.exceptions;
+package com.appsdeveloperblog.app.ws.futurespace.exercises.exercises_opcionales.exceptions;
 
-import com.appsdeveloperblog.app.ws.futurespace.exercises.exercises_opcionales.ej01_jpa_opcional.model.response.ErrorMessage;
+import com.appsdeveloperblog.app.ws.futurespace.exercises.exercises_opcionales.model.response.ErrorMessage;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

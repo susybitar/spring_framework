@@ -1,7 +1,7 @@
-package com.appsdeveloperblog.app.ws.futurespace.exercises.exercises_opcionales.ej01_jpa_opcional.config;
+package com.appsdeveloperblog.app.ws.futurespace.exercises.exercises_opcionales.config;
 
-import com.appsdeveloperblog.app.ws.futurespace.exercises.exercises_opcionales.ej01_jpa_opcional.entities.Person;
-import com.appsdeveloperblog.app.ws.futurespace.exercises.exercises_opcionales.ej01_jpa_opcional.repositories.PersonRepository;
+import com.appsdeveloperblog.app.ws.futurespace.exercises.exercises_opcionales.entities.Person;
+import com.appsdeveloperblog.app.ws.futurespace.exercises.exercises_opcionales.repositories.PersonRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

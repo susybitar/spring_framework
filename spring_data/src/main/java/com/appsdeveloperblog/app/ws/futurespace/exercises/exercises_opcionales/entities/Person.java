@@ -1,4 +1,4 @@
-package com.appsdeveloperblog.app.ws.futurespace.exercises.exercises_opcionales.ej01_jpa_opcional.entities;
+package com.appsdeveloperblog.app.ws.futurespace.exercises.exercises_opcionales.entities;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.*;
